@@ -1,0 +1,77 @@
+# vsim -c work.tb_fifo 
+# Start time: 19:19:43 on Oct 23,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  Questa Sim-64
+# //  Version 2019.2_1 linux_x86_64 May 13 2019
+# //
+# //  Copyright 1991-2019 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# ** Warning: License feature 'msimhdlsim' will expire in 8 days.
+# Loading sv_std.std
+# Loading work.tb_fifo(fast)
+# Loading work.fifo(fast)
+#                    0 1 - rw=00, rp_wp= x_ x, read_write=  0_ 84, stor='{x, x, x, x, x, x, x, x, x, x, x, x}
+#                   10 0 - rw=00, rp_wp= 0_ 0, read_write=  0_ 84, stor='{x, x, x, x, x, x, x, x, x, x, x, x}
+# fifo empty, can't read
+#                   20 1 - rw=10, rp_wp= 0_ 0, read_write=  0_ 84, stor='{x, x, x, x, x, x, x, x, x, x, x, x}
+#                   30 1 - rw=11, rp_wp= 1_ 1, read_write= 84_ 84, stor='{84, x, x, x, x, x, x, x, x, x, x, x}
+#                   40 1 - rw=01, rp_wp= 1_ 2, read_write=  0_ 85, stor='{84, 85, x, x, x, x, x, x, x, x, x, x}
+#                   50 1 - rw=01, rp_wp= 1_ 3, read_write=  0_ 86, stor='{84, 85, 86, x, x, x, x, x, x, x, x, x}
+#                   60 1 - rw=01, rp_wp= 1_ 4, read_write=  0_ 87, stor='{84, 85, 86, 87, x, x, x, x, x, x, x, x}
+#                   70 1 - rw=01, rp_wp= 1_ 5, read_write=  0_ 88, stor='{84, 85, 86, 87, 88, x, x, x, x, x, x, x}
+#                   80 1 - rw=01, rp_wp= 1_ 6, read_write=  0_ 89, stor='{84, 85, 86, 87, 88, 89, x, x, x, x, x, x}
+#                   90 1 - rw=01, rp_wp= 1_ 7, read_write=  0_ 90, stor='{84, 85, 86, 87, 88, 89, 90, x, x, x, x, x}
+#                  100 1 - rw=01, rp_wp= 1_ 8, read_write=  0_ 91, stor='{84, 85, 86, 87, 88, 89, 90, 91, x, x, x, x}
+#                  110 1 - rw=01, rp_wp= 1_ 9, read_write=  0_ 92, stor='{84, 85, 86, 87, 88, 89, 90, 91, 92, x, x, x}
+#                  120 1 - rw=01, rp_wp= 1_10, read_write=  0_ 93, stor='{84, 85, 86, 87, 88, 89, 90, 91, 92, 93, x, x}
+#                  130 1 - rw=01, rp_wp= 1_11, read_write=  0_ 94, stor='{84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, x}
+#                  140 1 - rw=01, rp_wp= 1_ 0, read_write=  0_ 95, stor='{84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95}
+#                  150 1 - rw=01, rp_wp= 1_ 1, read_write=  0_ 96, stor='{96, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95}
+# fifo full, wait for read before writing
+#                  160 1 - rw=01, rp_wp= 1_ 1, read_write=  0_ 97, stor='{96, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95}
+# fifo full, wait for read before writing
+#                  170 1 - rw=01, rp_wp= 1_ 1, read_write=  0_ 98, stor='{96, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95}
+# fifo full, wait for read before writing
+#                  180 1 - rw=01, rp_wp= 1_ 1, read_write=  0_ 99, stor='{96, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95}
+# fifo full, wait for read before writing
+#                  190 1 - rw=01, rp_wp= 1_ 1, read_write=  0_100, stor='{96, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95}
+# fifo full, wait for read before writing
+#                  200 1 - rw=01, rp_wp= 1_ 1, read_write=  0_101, stor='{96, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95}
+# fifo full, wait for read before writing
+#                  210 1 - rw=01, rp_wp= 1_ 1, read_write=  0_102, stor='{96, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95}
+# fifo full, wait for read before writing
+#                  220 1 - rw=01, rp_wp= 1_ 1, read_write=  0_103, stor='{96, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95}
+# fifo full, wait for read before writing
+#                  230 1 - rw=01, rp_wp= 1_ 1, read_write=  0_104, stor='{96, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95}
+# fifo full, wait for read before writing
+#                  250 1 - rw=11, rp_wp= 2_ 2, read_write=104_104, stor='{96, 104, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95}
+# fifo full, wait for read before writing
+#                  260 1 - rw=01, rp_wp= 2_ 2, read_write=  0_104, stor='{96, 104, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95}
+#                  270 1 - rw=10, rp_wp= 3_ 2, read_write= 86_104, stor='{96, 104, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95}
+#                  280 1 - rw=10, rp_wp= 4_ 2, read_write= 87_104, stor='{96, 104, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95}
+#                  290 1 - rw=10, rp_wp= 5_ 2, read_write= 88_104, stor='{96, 104, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95}
+#                  300 1 - rw=10, rp_wp= 6_ 2, read_write= 89_104, stor='{96, 104, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95}
+#                  310 1 - rw=10, rp_wp= 7_ 2, read_write= 90_104, stor='{96, 104, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95}
+#                  320 1 - rw=10, rp_wp= 8_ 2, read_write= 91_104, stor='{96, 104, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95}
+#                  330 1 - rw=10, rp_wp= 9_ 2, read_write= 92_104, stor='{96, 104, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95}
+#                  340 1 - rw=10, rp_wp=10_ 2, read_write= 93_104, stor='{96, 104, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95}
+#                  350 1 - rw=10, rp_wp=11_ 2, read_write= 94_104, stor='{96, 104, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95}
+#                  360 1 - rw=10, rp_wp= 0_ 2, read_write= 95_104, stor='{96, 104, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95}
+#                  370 1 - rw=10, rp_wp= 1_ 2, read_write= 96_104, stor='{96, 104, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95}
+#                  380 1 - rw=10, rp_wp= 2_ 2, read_write=104_104, stor='{96, 104, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95}
+# fifo empty, can't read
+# fifo empty, can't read
+# fifo empty, can't read
+# ** Note: $finish    : ../hdl/tb_fifo.sv(68)
+#    Time: 420 ns  Iteration: 0  Instance: /tb_fifo
+# End time: 19:19:44 on Oct 23,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
