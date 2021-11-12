@@ -1,5 +1,5 @@
 /****************************************************************
- * fifo.sv - first in first out + fifo definitions
+ * sync_fifo.sv - synchronous fifo
  *
  * Author        : Viraj Khatri (vk5@pdx.edu)
  * Last Modified : 21st October, 2021
@@ -13,7 +13,7 @@
 package fifo_defs;
 endpackage : fifo_defs
 
-module fifo
+module sync_fifo
 #(
 	parameter SIZE=16,
 	parameter WIDTH=8,
@@ -119,4 +119,4 @@ always_ff@(posedge clk or negedge rst_n) begin
 	end
 end
 
-endmodule : fifo
+endmodule : sync_fifo
