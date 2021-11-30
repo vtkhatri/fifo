@@ -1,0 +1,2 @@
+real gray code with synchronization for rd_ptr and write_ptr with a single flip-flop.
+That way the read and write operations are not stalled for 2 cycles, just 1 in worst case.
